@@ -11,17 +11,18 @@
 #logo {
     width: 150px;
     margin-top: 5vh;
-    margin-left: 1vw;
+    margin-left: 15px;
 }
 
 #title-section h1 {
+    font-size: 30px;
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
 #intro {
     font-size: 20px;
-    margin-left: 5px;
+    margin-left: 150px;
     color: rgb(186, 186, 186);
 }
 
@@ -30,7 +31,7 @@
 }
 
 #data {
-    font-size: 15px;
+    font-size: 15px;   
 }
 
 #title-section img {
@@ -40,5 +41,41 @@
 
 #title-section p {
     font-size: 15px;
-    margin-left: 10px;
+    margin-left: 15px;
+}
+
+.text {
+    margin: 25px 15px 
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+#lorem-table {
+    margin: 25px 15px;
+    width: calc(100% - 30px);
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#lorem-table th {
+    background-color: rgb(38, 189, 249);
+    color: white;
+}
+
+#lorem-table td {
+    width: 30%;
+}
+
+#lorem-table #text-cell {
+    width: 40%;
+}
+
+.row-colored {
+    background-color: lightblue;
 }
