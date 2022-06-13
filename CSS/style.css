@@ -1,4 +1,15 @@
 * {
     margin: 0;
-    background-color: #e1e1e1;
+}
+
+#main-header {
+    height: 10vh;
+    background-color: skyblue;
+    background-image: url("img/pattern.png")
+}
+
+#logo {
+    width: 150px;
+    margin-top: 5vh;
+    margin-left: 1vw;
 }
