@@ -13,3 +13,32 @@
     margin-top: 5vh;
     margin-left: 1vw;
 }
+
+#title-section h1 {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+#intro {
+    font-size: 20px;
+    margin-left: 5px;
+    color: rgb(186, 186, 186);
+}
+
+#author {
+    color: rgb(99, 226, 255);
+}
+
+#data {
+    font-size: 15px;
+}
+
+#title-section img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#title-section p {
+    font-size: 15px;
+    margin-left: 10px;
+}
