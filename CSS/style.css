@@ -1,11 +1,12 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 #main-header {
-    height: 10vh;
+    height: 100px;
     background-color: skyblue;
-    background-image: url("img/pattern.png")
+    background-image: url("/Users/eliavanon/Desktop/CODING/BOOLEAN/ESERCIZI BOOLEAN/html-css-booleaner/img/texture.png")
 }
 
 #logo {
@@ -78,4 +79,30 @@ ul {
 
 .row-colored {
     background-color: lightblue;
+}
+
+#pics-section h4 {
+    margin: 25px 15px;
+    font-weight: 100;
+}
+
+.more-articles{
+    color: white;
+    padding: 15px 10px;
+    margin: 25px 15px;
+    width: 250px;
+    height: 200px;
+    background-color: grey;
+}
+
+#bkg1 {
+    background-image: url("/Users/eliavanon/Desktop/CODING/BOOLEAN/ESERCIZI BOOLEAN/html-css-booleaner/img/monitor.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#bkg2 {
+    background-image: url("/Users/eliavanon/Desktop/CODING/BOOLEAN/ESERCIZI BOOLEAN/html-css-booleaner/img/graph.jpg");
+    background-position: center;
+    background-size: cover;
 }
