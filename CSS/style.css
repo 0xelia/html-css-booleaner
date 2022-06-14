@@ -6,12 +6,13 @@
 #main-header {
     height: 100px;
     background-color: skyblue;
-    background-image: url("/Users/eliavanon/Desktop/CODING/BOOLEAN/ESERCIZI BOOLEAN/html-css-booleaner/img/texture.png")
+    background-image: url('../img/pattern.png');
+    background-size: contain;
 }
 
 #logo {
     width: 150px;
-    margin-top: 5vh;
+    margin-top: 50px;
     margin-left: 15px;
 }
 
@@ -59,7 +60,7 @@ ul {
 
 #lorem-table {
     margin: 25px 15px;
-    width: calc(100% - 30px);
+
     text-align: left;
     border-collapse: collapse;
 }
@@ -67,29 +68,31 @@ ul {
 #lorem-table th {
     background-color: rgb(38, 189, 249);
     color: white;
+    height: 40px;
 }
 
-#lorem-table td {
-    width: 30%;
+#lorem-table .w-50 {
+    width: 50%;
 }
 
-#lorem-table #text-cell {
-    width: 40%;
-}
+
+
+
 
 .row-colored {
     background-color: lightblue;
 }
 
 #pics-section h4 {
-    margin: 25px 15px;
+    margin: 25px 0px 0px 15px;
+    font-weight: 100;;
     font-weight: 100;
 }
 
 .more-articles{
     color: white;
     padding: 15px 10px;
-    margin: 25px 15px;
+    margin: 5px 0px 10px 15px;
     width: 250px;
     height: 200px;
     background-color: grey;
